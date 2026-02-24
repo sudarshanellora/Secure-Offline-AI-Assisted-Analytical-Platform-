@@ -81,35 +81,26 @@ This platform demonstrates a practical alternative:
 ---
 
 ## 📁 Repository Structure
-Secure-Offline-AI-Platform/
-│
-├── data/
-│ └── master_data.csv # Demo dataset
-│
-├── src/
-│ └── demo_script.py # Main analytics workflow
-│
-├── README.md # Project documentation
-├── requirements.txt # Python dependencies
-└── .gitignore
+<img width="515" height="400" alt="image" src="https://github.com/user-attachments/assets/83297372-c474-4059-9e19-9eb0901ba122" />
+
 
 
 ---
 
-##⚙️ Installation
+⚙️ Installation
 
-###1. Clone Repository
+1. Clone Repository
 
 ```bash
 git clone https://github.com/your-username/secure-offline-ai-platform.git
 cd secure-offline-ai-platform
 
-### 2. Install Python Dependencies
+2. Install Python Dependencies
 
 Ensure Python 3.x is installed, then run:
 
 pip install -r requirements.txt
-### 3. Install Ollama
+3. Install Ollama
 
 Download and install Ollama:
 
@@ -119,12 +110,12 @@ Verify installation:
 
 ollama --version
 
-### 4. Pull Local Language Model (One-Time)
+4. Pull Local Language Model (One-Time)
 ollama pull llama3
 
 Once downloaded, the system runs fully offline.
 
-### 5.** Turn on Aeroplane mode**
+5.** Turn on Aeroplane mode**
 
 run** python src/demo_script.py**
 
